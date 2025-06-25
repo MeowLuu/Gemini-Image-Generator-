@@ -1,14 +1,29 @@
-# Run and deploy your AI Studio app
+# Gemini Image Generator 🎨
 
-This contains everything you need to run your app locally.
+This is a React + TypeScript web app that generates images using Google’s Imagen-3 model through the Gemini API.
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- Generate images from natural language prompts
+- Choose number of images to generate
+- Responsive and modern UI using Tailwind CSS
+- Google Imagen-3 (via Gemini API) integration
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Google Generative AI (Imagen-3)
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/MeowLuu/Gemini-Image-Generator-.git
+cd Gemini-Image-Generator-
+npm install
+cp .env.example .env
+VITE_GEMINI_API_KEY=your-google-api-key-here
+npm run dev
